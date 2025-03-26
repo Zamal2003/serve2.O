@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://admin-form-beige.vercel.app/", "https://observation-form.vercel.app/", "*"], // Open to all origins (for dev). Change this to frontend URL in production.
+    origin: ["https://admin-form-beige.vercel.app", "https://observation-form.vercel.app"], // Open to all origins (for dev). Change this to frontend URL in production.
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials:true
   })
